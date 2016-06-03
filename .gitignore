@@ -1,0 +1,11 @@
+# git ignore file
+**/[Oo]bj/**
+**/[Bb]in/**
+**/.vs/**
+**/.nuget/**
+_ReSharper.*
+*.user
+*.suo
+*.userprefs
+*DS_Store
+*.sln.ide
