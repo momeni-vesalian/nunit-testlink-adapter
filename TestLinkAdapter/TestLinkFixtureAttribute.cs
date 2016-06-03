@@ -14,7 +14,7 @@ namespace NUnit.TestLink
         private string _url;
 
         /// <summary>
-        /// The url for the Testlink XmlRPC api.
+        /// The url for the TestLink XmlRPC api.
         /// </summary>
         public virtual string Url
         {
@@ -25,7 +25,7 @@ namespace NUnit.TestLink
         private string _projectName;
 
         /// <summary>
-        /// The name of the test project in testlink
+        /// The name of the test project in TestLink
         /// </summary>
         public virtual string ProjectName
         {
@@ -36,9 +36,9 @@ namespace NUnit.TestLink
         private string _projectPrefix;
 
         /// <summary>
-        /// The prefix of the test project in testlink. 
-        /// If the projectName is not defined in testlink and this property is not set, 
-        /// the first letter of the projectName will be used.
+        /// The prefix of the test project in TestLink. 
+        /// If the ProjectName is not defined in TestLink and this property is not set, 
+        /// the first letter of the ProjectName will be used.
         /// </summary>
         public virtual string ProjectPrefix
         {
@@ -49,7 +49,7 @@ namespace NUnit.TestLink
         private string _projectDescription = "Automated Test Project";
 
         /// <summary>
-        /// The description of the test project in testlink. 
+        /// The description of the test project in TestLink. 
         /// </summary>
         public virtual string ProjectDescription
         {
@@ -73,7 +73,7 @@ namespace NUnit.TestLink
         private string _devKey;
 
         /// <summary>
-        /// The devkey or ApiKey for the above userid. provided by testlink
+        /// The devkey or ApiKey for the above userid. provided by TestLink
         /// </summary>
         public virtual string DevKey
         {
@@ -106,7 +106,7 @@ namespace NUnit.TestLink
         private string _buildName;
 
         /// <summary>
-        /// The name of build for test plan in testlink.
+        /// The name of build for test plan in TestLink.
         /// If this property is not set, the latest build name will be used and
         /// if there is not any build, 'Default-Build' will be used.
         /// </summary>
@@ -119,8 +119,8 @@ namespace NUnit.TestLink
         private string _buildDescription;
 
         /// <summary>
-        /// The description of build for test plan in testlink.
-        /// If this property is not set, the latest build name will be used and
+        /// The description of build for test plan in TestLink.
+        /// If BuildName is not set, the latest build will be used and
         /// if there is not any build, 'Automated Build' will be used.
         /// </summary>
         public virtual string BuildDescription
@@ -157,9 +157,9 @@ namespace NUnit.TestLink
         private string _platformName = "Default-Platform";
 
         /// <summary>
-        /// The name of the platform that is linked to the test plan in testlink.
+        /// The name of the platform that is linked to the test plan in TestLink.
         /// If this property is not set or the platform is not linked to test plan, 
-        /// all test cases will be created but non of them will be executed.
+        /// all test cases will be created but none of them will be executed.
         /// </summary>
         public virtual string PlatformName
         {
