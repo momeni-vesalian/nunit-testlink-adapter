@@ -7,4 +7,4 @@ Dependencies: NUnit 2.6.4 .NET 4.0 TestLink [DEV] 1.9.14
 
 Build: I use VS 2015 and NuGet (dependencies to XmlRpcV2, NUnit and NUnit.Runners). I run all tests of TestLinkAdapter.Test.
 
-News: All TestLinkFixture attributes will be declared automatically in testlink but for the first runnig of tests all tests will be failed because you mus create your platform manually and assign it to the test plan; After that you can run all tests again and all of them will be passed successfully. 
+News: All TestLinkFixture attributes will be declared automatically in testlink but for the first runnig of tests all tests will be failed because you must create your platform manually and assign it to the test plan; After that you can run all tests again and all of them will be passed successfully. 
